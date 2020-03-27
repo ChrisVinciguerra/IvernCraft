@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scenes\NewBehaviourScript.cs" />
     <Compile Include="Assets\scripts\Grounded.cs" />
+    <Compile Include="Assets\scripts\GrowTree.cs" />
     <Compile Include="Assets\scripts\playerMovement.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Zack/Documents/GitHub/IvernCraft/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
