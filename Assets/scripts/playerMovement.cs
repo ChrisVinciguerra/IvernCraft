@@ -24,6 +24,7 @@ public class playerMovement : MonoBehaviour
     void jump() {
         if (Input.GetButtonDown("Jump") && isGrounded == true) { 
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 10f), ForceMode2D.Impulse);
+            animator.SetTrigger("isJumping");
         }
     }
 }
