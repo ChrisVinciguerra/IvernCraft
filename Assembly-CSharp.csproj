@@ -61,6 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\NewBehaviourScript.cs" />
+    <Compile Include="Assets\scripts\BkgrndFollow.cs" />
+    <Compile Include="Assets\scripts\CameraFollow.cs" />
+    <Compile Include="Assets\scripts\GameHandler.cs" />
     <Compile Include="Assets\scripts\Grounded.cs" />
     <Compile Include="Assets\scripts\GrowTree.cs" />
     <Compile Include="Assets\scripts\playerMovement.cs" />
