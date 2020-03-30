@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: fc420338c2d1c9d498a797eb85d946d3
+guid: 6355112bcc2322047a80a4d86c8aada2
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Tree_0
-    21300002: Tree_1
-    21300004: Tree_2
-    21300006: Tree_3
+    21300000: IvernJump_0
+    21300002: IvernJump_1
+    21300004: IvernJump_2
+    21300006: IvernJump_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -88,7 +88,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tree_0
+      name: IvernJump_0
       rect:
         serializedVersion: 2
         x: 0
@@ -102,13 +102,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5285f47ceff0ae84e8e1c78ecf6a7785
+      spriteID: 4a8225e95c09d194e98077a3467d83f3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tree_1
+      name: IvernJump_1
       rect:
         serializedVersion: 2
         x: 32
@@ -122,13 +122,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c492759bc996b7246b47634ff9875fc0
+      spriteID: 8dace36a57e294941b4fda4e108a01da
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tree_2
+      name: IvernJump_2
       rect:
         serializedVersion: 2
         x: 64
@@ -142,13 +142,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0bb82973b46cb64aa14335eeb591ed4
+      spriteID: 65ca7ac84e875b444a6ace10aeb94c04
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tree_3
+      name: IvernJump_3
       rect:
         serializedVersion: 2
         x: 96
@@ -162,7 +162,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00c3694918f868e4085f7e1c486a712d
+      spriteID: e4866199e7466aa4bb464551d5fd8dc2
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6f149ad6221172b4c905fcff74ea5bc4
+    spriteID: 8ef734b4f7dfc5345968b0ce19be7dd6
     vertices: []
     indices: 
     edges: []

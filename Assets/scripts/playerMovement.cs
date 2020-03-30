@@ -16,14 +16,19 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isGrounded == true) animator.SetBool("isGrounded", true);
+        else animator.SetBool("isGrounded", false);
+
         jump();
         Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         transform.position += movement * Time.deltaTime * moveSpeed;
         animator.SetFloat("Speed", Input.GetAxis("Horizontal"));
+        
     }
     void jump() {
         if (Input.GetButtonDown("Jump") && isGrounded == true) { 
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 10f), ForceMode2D.Impulse);
+            animator.SetTrigger("isJumping");
         }
     }
 }
